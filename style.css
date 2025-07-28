@@ -163,65 +163,94 @@ a {
   background-color: #0b0e23;
   padding: 80px 20px;
 }
+
 .offering {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
-  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  gap: 40px;
 }
+
 .offering-text {
-  flex: 1.2;
+  flex: 1;
+  min-width: 300px;
+  max-width: 550px;
   color: #ffffff;
-  max-width: 600px;
 }
+
 .offering-text h2 {
   color: #64ff87;
   font-size: 1.8rem;
+  margin-bottom: 10px;
 }
+
 .offering-text h4 {
   color: #ccc;
   margin-top: 20px;
+  font-size: 1.1rem;
 }
+
 .offering-text p {
   margin-top: 10px;
   color: #ccc;
+  line-height: 1.6;
 }
+
 .offering-text ul {
   margin-top: 15px;
   padding-left: 20px;
 }
+
 .offering-text ul li {
   margin-bottom: 8px;
+  list-style: disc;
+  color: #ddd;
 }
+
 .offering-buttons {
   margin-top: 20px;
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 12px;
 }
+
+.btn-blue,
+.btn-green {
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .btn-blue {
   background-color: #007BFF;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 25px;
 }
+
 .btn-green {
   background-color: #64ff87;
   color: #000;
-  padding: 10px 20px;
-  border-radius: 25px;
 }
+
 .offering-img {
   flex: 1;
+  min-width: 280px;
+  max-width: 500px;
   text-align: center;
 }
+
 .offering-img img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 255, 128, 0.1);
 }
+
 
 /* === About Section === */
 .about-section {
