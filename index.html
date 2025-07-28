@@ -169,14 +169,20 @@
   <section class="contact-section" id="contact">
     <div class="contact-container">
       <h2>Contact Us</h2>
-     <form action="https://formspree.io/f/mvgqrage" method="POST" class="contact-form">
-      <input type="hidden" name="_redirect" value="https://my-landing-page-six-ruddy.vercel.app/thankyou.html" />
-  
-      <input type="text" name="name" placeholder="Name" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <textarea name="message" placeholder="Message" rows="5" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+        <form
+          action="https://formspree.io/f/mvgqrage"
+          method="POST"
+          class="contact-form"
+        >
+          <!-- 🔁 REDIRECT on success -->
+          <input type="hidden" name="_redirect" value="https://my-landing-page-six-ruddy.vercel.app/thankyou.html" />
+        
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        
+          <button type="submit">Send</button>
+        </form>
     </div>
   </section>
 
