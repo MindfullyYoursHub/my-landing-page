@@ -70,36 +70,40 @@ a {
 
 
 /* === Hero Section === */
-.hero {
+.hero-section {
+  background-color: #0b0e23;
   padding: 80px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px
 }
-.hero-content {
+
+.hero {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  width: 100%;
+  margin: 0 auto;
+  gap: 40px;
 }
+
 .hero-text {
   flex: 1;
   padding: 20px;
 }
+
 .hero-text h1 {
   font-size: 2.8rem;
   color: #ffffff;
 }
+
 .hero-text h1 span {
   color: #64ff87;
 }
+
 .hero-text p {
   margin-top: 15px;
   color: #cccccc;
 }
+
 .cta-btn {
   display: inline-block;
   margin-top: 25px;
@@ -108,16 +112,20 @@ a {
   color: #000;
   font-weight: 600;
   border-radius: 25px;
+  text-decoration: none;
 }
+
 .hero-image {
   flex: 1;
   padding: 20px;
   text-align: center;
 }
+
 .hero-image img {
   max-width: 100%;
   border-radius: 10px;
 }
+
 
 /* === Services Section === */
 .services {
