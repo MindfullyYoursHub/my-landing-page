@@ -161,7 +161,7 @@ a {
 /* === Offerings Section === */
 .offering-section {
   background-color: #0b0e23;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .offering {
@@ -170,7 +170,7 @@ a {
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
-  margin: auto 80px;
+  margin: 0 auto 80px;
   gap: 40px;
 }
 
@@ -250,6 +250,7 @@ a {
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 255, 128, 0.1);
 }
+
 
 
 /* === About Section === */
