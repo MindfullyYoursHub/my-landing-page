@@ -87,12 +87,14 @@ a {
 
 .hero-text {
   flex: 1;
+  min-width: 300px;
   padding: 20px;
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   color: #ffffff;
+  line-height: 1.4;
 }
 
 .hero-text h1 span {
@@ -117,8 +119,9 @@ a {
 
 .hero-image {
   flex: 1;
-  padding: 20px;
+  min-width: 300px;
   text-align: center;
+  padding: 20px;
 }
 
 .hero-image img {
