@@ -92,7 +92,7 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  width: 100%;
+  width: 55%;
 }
 
 .hero-text {
@@ -131,7 +131,7 @@ a {
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 45%;
   border-radius: 10px;
 }
 
