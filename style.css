@@ -84,8 +84,9 @@ a {
 .hero-content {
   background-image: url('images/hero-bg.png');
   background-attachment: scroll;
-  background-position: left;
+  background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
