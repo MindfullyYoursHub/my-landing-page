@@ -125,7 +125,12 @@ a {
 
 /* === Hero Section === */
 .hero {
-  padding: 40px 20px;
+  background-image: url('images/hero1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
