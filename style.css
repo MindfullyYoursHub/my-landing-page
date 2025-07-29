@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #fff;
   margin: 20px;
   font-family: 'Poppins', sans-serif;
@@ -84,7 +84,7 @@ a {
 .hero-content {
   background-image: url('images/hero-bg.png');
   background-attachment: scroll;
-  background-position: left;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
