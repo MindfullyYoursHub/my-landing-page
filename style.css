@@ -82,11 +82,7 @@ a {
 }
 
 .hero-content {
-  background-image: url('images/hero-bg.png');
-  background-attachment: scroll;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -125,6 +121,11 @@ a {
 }
 
 .hero-image {
+  background-image: url('images/hero-bg.png');
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   flex: 1;
   padding: 20px;
   text-align: center;
