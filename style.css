@@ -73,6 +73,10 @@ a {
 
 /* === Hero Section === */
 .hero {
+  background-image: url('images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-top:60px;
   margin-bottom:60px;
   padding: 80px 20px;
@@ -121,19 +125,20 @@ a {
 }
 
 .hero-image {
-  background-image: url('images/hero-bg.png');
-  background-attachment: scroll;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
   flex: 1;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-image img {
-  max-width: 100%;
-  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease;
 }
 
 
