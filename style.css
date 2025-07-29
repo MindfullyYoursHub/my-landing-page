@@ -28,8 +28,8 @@ a {
   padding: 15px 20px;
   position: sticky;
   top: 10px;
-  left: 40px;
-  right:40px;
+  left: 80px;
+  right:80px;
   z-index: 1000;
   border-radius:40px;
   box-shadow: 0 4px 20px rgba(0, 255, 128, 0.15);
