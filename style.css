@@ -81,7 +81,7 @@ a {
   align-items: center;
   background-image: url('images/hero-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: scroll;
 }
