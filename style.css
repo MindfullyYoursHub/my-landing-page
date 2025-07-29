@@ -1,6 +1,6 @@
 /* === General === */
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -27,10 +27,7 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding: 15px 20px;
   position: sticky;
-  top: 10px;
-  left: 80px;
-  right:80px;
-  z-index: 1000;
+   z-index: 1000;
   border-radius:40px;
   box-shadow: 0 4px 20px rgba(0, 255, 128, 0.15);
 }
@@ -75,6 +72,8 @@ a {
 
 /* === Hero Section === */
 .hero {
+  margin-top:60px;
+  margin-bottom:60px;
   padding: 80px 20px;
   display: flex;
   justify-content: center;
@@ -82,7 +81,7 @@ a {
   background-image: url('images/hero-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: left;
   background-attachment: scroll;
 }
 
