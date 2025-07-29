@@ -165,8 +165,7 @@ a {
 
 /* === Offerings Section === */
 .offering-section {
-  background-color: #0b0e23;
-  padding: 80px 20px;
+    padding: 80px 20px;
 }
 
 .offering {
@@ -260,8 +259,7 @@ a {
 
 /* === About Section === */
 .about-section {
-  background-color: #0b0e23;
-  padding: 80px 20px;
+   padding: 80px 20px;
 }
 .about-container {
   display: flex;
@@ -298,8 +296,7 @@ a {
 
 /* === Testimonials === */
 .testimonials-section {
-  background-color: #0b0e23;
-  padding: 80px 20px;
+    padding: 80px 20px;
   text-align: center;
 }
 .testimonials-container {
@@ -322,7 +319,7 @@ a {
 
 /* === Contact Section === */
 .contact-section {
-  background-color: #0b0e23;
+  
   padding: 80px 20px;
   text-align: center;
 }
@@ -358,7 +355,7 @@ a {
 
 /* === Footer === */
 .site-footer {
-  background-color: #0b0e23;
+ 
   color: #ffffff;
   padding: 40px 20px 20px;
   font-size: 0.9rem;
