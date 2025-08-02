@@ -146,7 +146,7 @@ a {
 }
 
 .hero-review{
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 15px;
   margin-top: 30px;
