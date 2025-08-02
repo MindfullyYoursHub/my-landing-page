@@ -145,14 +145,6 @@ a {
   padding: 20px;
 }
 
-.hero-review{
-  display: inline-flex;
-  align-items: center;
-  gap: 15px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
 .hero-text h1 {
   font-size: 2.8rem;
   color: #ffffff;
