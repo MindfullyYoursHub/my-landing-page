@@ -359,7 +359,7 @@ a {
 .about-image {
   flex: 1;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .about-image img {
   max-width: 350px;
